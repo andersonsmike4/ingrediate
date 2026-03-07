@@ -1,5 +1,5 @@
-# iQB
-Football Game Planner
+# Ingrediate
+Meal maker from available ingredients on hand
 
 ## Overview
 This repo contains a Rails 7 app with React (via esbuild) located in the `web` directory. PostgreSQL is used as the database. Ruby is pinned to `3.3.8` via rbenv for isolation from other apps.
