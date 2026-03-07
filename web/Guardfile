@@ -1,0 +1,8 @@
+guard "livereload", port: 35729 do
+  watch(%r{app/views/.+\.(erb|haml|slim)$})
+  watch(%r{app/helpers/.+\.rb})
+  watch(%r{app/assets/.+\.(css|scss|sass|js)$})
+  watch(%r{app/javascript/.+\.(js|jsx|ts|tsx)$})
+  watch(%r{app/assets/builds/.+\.(js|css)$})
+  watch(%r{config/locales/.+\.yml})
+end

@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@headlessui/react": "^2.2.9",
+    "@heroicons/react": "^2.2.0",
+    "@tailwindcss/cli": "^4.1.17",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwindcss": "^4.1.17"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.0",
+    "esbuild": "^0.27.0",
+    "vite": "^7.2.2",
+    "vite-plugin-ruby": "^5.1.1"
+  },
+  "scripts": {
+    "build": "esbuild --loader:.jsx=jsx app/javascript/*.* --bundle --sourcemap --format=esm --outdir=app/assets/builds --public-path=/assets",
+    "watch": "esbuild app/javascript/*.* --bundle --sourcemap --watch --outdir=app/assets/builds",
+    "build:css": "npx @tailwindcss/cli -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css --minify"
+  }
+}
