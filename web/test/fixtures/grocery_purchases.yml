@@ -1,0 +1,20 @@
+one:
+  item_name: Chicken Breast
+  actual_price_cents: 1200
+  purchased_at: <%= 2.days.ago %>
+  store_name: Whole Foods
+  user: one
+
+two:
+  item_name: Carrots
+  actual_price_cents: 350
+  purchased_at: <%= 5.days.ago %>
+  store_name: Trader Joes
+  user: one
+
+three:
+  item_name: Rice
+  actual_price_cents: 800
+  purchased_at: <%= 1.day.ago %>
+  store_name: Safeway
+  user: two

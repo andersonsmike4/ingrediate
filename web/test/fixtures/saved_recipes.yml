@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: Spaghetti Carbonara
+  description: Classic Italian pasta dish
+  cook_time: 30 minutes
+  difficulty: medium
+  servings: 4
+  ingredients_json: '[{"name":"spaghetti","amount":"400g","have":true},{"name":"eggs","amount":"4 pieces","have":true}]'
+  steps_json: '["Boil pasta","Mix eggs","Combine"]'
+  nutrition_json: '{"calories":500,"protein":"20g","carbs":"65g","fat":"18g"}'
+  substitutions_json: '[]'
+  user: one
+
+two:
+  name: Chicken Stir Fry
+  description: Quick and healthy chicken dish
+  cook_time: 20 minutes
+  difficulty: easy
+  servings: 2
+  ingredients_json: '[{"name":"chicken","amount":"300g","have":true}]'
+  steps_json: '["Cut chicken","Stir fry"]'
+  nutrition_json: '{"calories":350,"protein":"30g","carbs":"25g","fat":"12g"}'
+  substitutions_json: '[]'
+  user: two

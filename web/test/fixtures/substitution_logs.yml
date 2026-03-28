@@ -1,0 +1,15 @@
+one:
+  original_ingredient: butter
+  substitute_ingredient: olive oil
+  recipe_name: Pasta Carbonara
+  rating: 4
+  notes: Worked well but slightly different flavor
+  user: one
+
+two:
+  original_ingredient: milk
+  substitute_ingredient: almond milk
+  recipe_name: Pancakes
+  rating: 5
+  notes: Perfect substitute
+  user: one

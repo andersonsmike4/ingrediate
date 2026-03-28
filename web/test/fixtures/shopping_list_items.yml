@@ -1,0 +1,17 @@
+one:
+  name: Tomatoes
+  amount: 2 lbs
+  checked: false
+  user: one
+
+two:
+  name: Milk
+  amount: 1 gallon
+  checked: true
+  user: one
+
+three:
+  name: Bread
+  amount: 1 loaf
+  checked: false
+  user: two

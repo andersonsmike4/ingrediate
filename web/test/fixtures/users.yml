@@ -1,0 +1,11 @@
+one:
+  email: user1@example.com
+  encrypted_password: <%= BCrypt::Password.create("password123", cost: 4) %>
+  name: Test User One
+  api_token: test_token_user_one_123456
+
+two:
+  email: user2@example.com
+  encrypted_password: <%= BCrypt::Password.create("password123", cost: 4) %>
+  name: Test User Two
+  api_token: test_token_user_two_789012

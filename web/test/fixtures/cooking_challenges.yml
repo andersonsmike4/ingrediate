@@ -1,0 +1,15 @@
+one:
+  challenge_text: Try cooking a dish using only 5 ingredients
+  challenge_type: constraint
+  difficulty: intermediate
+  challenge_date: <%= Date.current %>
+  criteria_json: '{"max_ingredients": 5}'
+  tips_json: '["Focus on quality ingredients", "Simple seasoning works best"]'
+
+two:
+  challenge_text: Create a vegetarian meal
+  challenge_type: dietary
+  difficulty: beginner
+  challenge_date: <%= 1.day.ago %>
+  criteria_json: '{"dietary": "vegetarian"}'
+  tips_json: '["Use legumes for protein"]'
