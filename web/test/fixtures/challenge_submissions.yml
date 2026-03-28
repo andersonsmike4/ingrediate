@@ -1,0 +1,5 @@
+one:
+  user: one
+  cooking_challenge: two
+  notes: Made a delicious veggie stir-fry
+  completed_at: <%= 1.day.ago %>

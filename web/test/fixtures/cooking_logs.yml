@@ -1,0 +1,9 @@
+one:
+  user: one
+  saved_recipe: one
+  cooked_at: <%= 2.days.ago %>
+
+two:
+  user: one
+  saved_recipe: one
+  cooked_at: <%= 5.days.ago %>

@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* Print styles - hide non-essential elements */
+@media print {
+  nav, footer, button, .print\:hidden {
+    display: none !important;
+  }
+}

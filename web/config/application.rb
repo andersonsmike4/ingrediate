@@ -6,6 +6,10 @@ require "rails/all"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+# Load .env from the repo root (parent of web/)
+env_file = File.expand_path("../../.env", __dir__)
+Dotenv.load(env_file) if defined?(Dotenv) && File.exist?(env_file)
+
 module Web
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.

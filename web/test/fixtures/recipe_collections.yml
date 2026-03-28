@@ -1,0 +1,9 @@
+one:
+  name: My Favorite Recipes
+  description: A collection of my go-to meals
+  user: one
+
+two:
+  name: Quick Dinners
+  description: Fast weeknight meals
+  user: two
